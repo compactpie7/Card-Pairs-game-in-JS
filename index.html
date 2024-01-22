@@ -10,6 +10,15 @@
 </head>
 
 <body>
+  <button id="theme-toggle">Сменить тему</button>
+
+  <div id="timer-display">00:60</div>
+  <div id="config-form">
+    <label for="cardCountInput">Количество пар карточек<br>(обязательно чётное число и не больше 10): </label>
+    <input type="number" id="cardCountInput" min="2" max="10" step="2" value="4">
+    <button id="startGameBtn">Начать игру</button>
+  </div>
+
   <div id="game-board"></div>
   <button id="reset-btn">Сыграть ещё раз</button>
 </body>
